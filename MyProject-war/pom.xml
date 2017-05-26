@@ -135,16 +135,6 @@
         </dependency>
 
         <dependency>
-            <groupId>com.qccr.membercenter</groupId>
-            <artifactId>membercenter-facade</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>com.qccr.merchantcenter</groupId>
-            <artifactId>merchantcenter-facade</artifactId>
-        </dependency>
-
-        <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <scope>test</scope>
