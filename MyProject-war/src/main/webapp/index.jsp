@@ -8,7 +8,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>首页</title>
+    <title>登录页</title>
     <jsp:include page="/common/jsp/include.jsp"></jsp:include>
 </head>
 <body class="base-color" >
@@ -41,6 +41,15 @@
         </form>
     </div>
 
+<script >
+    $(function(){
+        $(".submit-button").click(function(){
+            location.href = "/common/jsp/index.jsp";
+        })
+    });
+
+
+</script>
 
 </body>
 </html>
