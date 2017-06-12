@@ -15,6 +15,10 @@
     url('//at.alicdn.com/t/font_scp85q8cnl2qpvi.svg#iconfont') format('svg');
 }
 
+body {
+    font-family: "微软雅黑";
+}
+
 
 /* 登陆页*/
 
@@ -202,6 +206,25 @@
     position: absolute;
 }
 
-.banner_img{
+/*首页下面四个div*/
+.item_content {
+    width: 100%;
+    height: 27%;
+    margin-right: auto;
+    margin-left: auto;
+}
 
+.item_content .item {
+    width: 23%;
+    height: 100%;
+    line-height: 120px;
+    text-align: center;
+    cursor: pointer;
+    float: left;
+    padding: 1%;
+}
+.item_content .item img {
+    width: 100%;
+    height: 90%;
+    border-radius: 6px;
 }

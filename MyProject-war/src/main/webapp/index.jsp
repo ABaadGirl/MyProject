@@ -44,7 +44,7 @@
 <script >
     $(function(){
         $(".submit-button").click(function(){
-            location.href = "/common/jsp/index.jsp";
+            location.href = "../jsp/moodWeb/index.jsp";
         })
     });
 
